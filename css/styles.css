@@ -1,0 +1,149 @@
+h1{
+  font-family: sans-serif;
+  font-size: 100px;
+  text-align: center;
+  color: #ad1d45;
+}
+
+#header.h1{
+  font-size: 200px;
+}
+
+
+h2, h3{
+  text-align: center;
+  color: #241663;
+}
+
+p{
+  color: #241663;
+}
+
+body{
+  position: absolute;
+}
+
+.row1, .row2{
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+
+.co1, .co2{
+  position: relative;
+  width: 40%;
+}
+
+.co1{
+  top: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.co2{
+  top: 70px;
+  left: 50%;
+  /* padding: 100px; */
+}
+
+/* position in the experience section */
+
+.titexp2{
+  top: 200px;
+}
+
+.titexp3{
+  top: 60%;
+}
+
+.pr, .sk{
+  text-align: left;
+}
+
+.pr, .sk, .exp, .titexp, .co1, .co2{
+  margin: 20px;
+  padding: 20px;
+}
+
+.algebra{
+  text-decoration: underline;
+}
+
+.ante-end{
+  font-size: 30px;
+}
+.end{
+  color: #cba1d2;
+}
+
+#projects, #skills, #header, #education, #pursuits, #footer{
+  text-align: center;
+  padding: 2em;
+}
+/* background-image: linear-gradient( #fec771, #ffb3b3) */
+
+/* colour schemes for website */
+
+#header{
+  background-image: linear-gradient(#ffb3b3, #fec771);
+}
+
+#experience{
+  background-image: linear-gradient( #fec771, #e0e0e0);
+  /* new bit added on to test position */
+  position: relative;
+  /* height: 1100px; */
+}
+
+#skills{
+  background-image: linear-gradient( #e0e0e0, #64e291);
+}
+
+#projects{
+  background-image: linear-gradient(#64e291, #64c4ed);
+}
+
+#education{
+  text-align: center;
+  background-image: linear-gradient(#64c4ed, #f5b5fc);
+  position: relative;
+}
+
+#pursuits{
+  background-image: linear-gradient(#f5b5fc, #ffdcf7);
+}
+
+#footer{
+  background-color: #ffdcf7;
+}
+
+/* images */
+
+.nav-img{
+  width: 60px;
+}
+.exp-img, .edu-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  padding: 40px;
+}
+
+.stand-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  width: 300px;
+}
+.impr, .imsk, .about-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  padding: 40px;
+}
+
+.linkedin-img{
+  width: 20px;
+}
